@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(https://images.unsplash.com/photo-1528360983277-13d401cdc186?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: 1900px 1200px;
+    color: white;
+}
+
+.left {
+    /* border: 2px solid white; */
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+
+}
+
+.right {
+    /* border: 2px solid white; */
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+
+
+}
+
+.mid {
+    /* border: 2px solid white; */
+    display: block;
+    margin: 18px auto;
+    width: 50%;
+
+
+}
+
+.navbar {
+    display: inline-block;
+    list-style: none;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 60px;
+}
+
+.navbar a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
+
+.left img {
+    width: 125px;
+    height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 0px;
+    font-size: 23px;
+}
+
+.right .btn,
+.btn1 {
+    margin: 0px 9px;
+    color: white;
+    background-color: transparent;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-right: 9px;
+    margin-top: 10px;
+    border: 1px solid black;
+    font-size: 17px;
+    /* border-radius: 10px; */
+}
+
+.right .btn:hover,
+.btn1:hover {
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.container {
+    border: 2px solid red;
+    margin: 150px 33px;
+    padding: 31px 63px;
+    width: 30%;
+    color: white;
+    font-size: 20px;
+}
+
+.form-group input{
+    margin: 10px 10px;
+}
